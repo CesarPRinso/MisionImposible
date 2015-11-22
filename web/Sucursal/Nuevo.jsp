@@ -9,6 +9,13 @@
 <html lang="en">
     <head>
         <script src="../assets/js/jquery.js"></script>
+               <script src="../assets/js/bootstrap.min.js"></script>
+        <script src="../assets/js/jquery-ui-1.9.2.custom.min.js"></script>
+        <script src="../assets/js/jquery.ui.touch-punch.min.js"></script>
+        <script class="include" type="text/javascript" src="../assets/js/jquery.dcjqaccordion.2.7.js"></script>
+        <script src="../assets/js/jquery.scrollTo.min.js"></script>
+        <script src="../assets/js/jquery.nicescroll.js" type="text/javascript"></script>
+        
         <script src="Sucursal.js" type="text/javascript"></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -114,7 +121,7 @@
                                             <div class="form-group">
                                                 <label class="col-sm-2 col-sm-2 control-label">Nombre :</label>
                                                 <div class="col-sm-10">
-                                                    <input type="text" class="form-control" id="txt_nombre">
+                                                    <input  class="form-control" id="txt_nombre">
                                                 </div>
                                             </div>
                                             <div class="form-group">
@@ -154,15 +161,6 @@
         </section>
 
         <!-- js placed at the end of the document so the pages load faster -->
-        
-        <script src="../assets/js/bootstrap.min.js"></script>
-        <script src="../assets/js/jquery-ui-1.9.2.custom.min.js"></script>
-        <script src="../assets/js/jquery.ui.touch-punch.min.js"></script>
-        <script class="include" type="text/javascript" src="../assets/js/jquery.dcjqaccordion.2.7.js"></script>
-        <script src="../assets/js/jquery.scrollTo.min.js"></script>
-        <script src="../assets/js/jquery.nicescroll.js" type="text/javascript"></script>
-        
-
 
         <!--common script for all pages-->
         <script src="../assets/js/common-scripts.js"></script>

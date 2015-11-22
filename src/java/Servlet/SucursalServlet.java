@@ -40,7 +40,6 @@ public class SucursalServlet extends HttpServlet {
         PrintWriter out = response.getWriter();
         try {
             String operacion = request.getParameter("operacion");
-            String forwardJsp = null;
 
             if (operacion.equals("nuevo")) {
 

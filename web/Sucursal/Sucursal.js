@@ -7,7 +7,7 @@ function ini()
 function Guadar_Sucursal() {
     
         var param = {
-            id: $('#txt_id').attr('value'),
+            id:$('#txt_id').attr('value'),
             nombre: $('#txt_nombre').attr('value'),
             direccion: $('#txt_direccion').attr('value'),
             telefono: $('#txt_telefono').attr('value'),

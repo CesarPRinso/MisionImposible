@@ -34,14 +34,16 @@ public class SucursalDAO {
         
         //esta variable son las declariones que hacemos a la base de datos
         Statement stmt = null;
+        
         //esta variable es como un array(lista de objetos que es como una coleccion)
         /*
         Averiguame que es una coleccion y que es un lifo y un fifo 
-        y el array que de los dos son        
-        bueno esta varia de tipo Resulset es la que alojara los resultados de la base de datos 
+        y el array que de los dos son (dime si entendiste la tareita :) te amo)       
+        bueno esta variable de tipo Resulset es la que alojara los resultados de la base de datos 
         para despues recorrer su contenido
         */        
         ResultSet rs = null;
+        
         //Variable de lista de tipo Sucursal, esto quiere decir que tomara la plantilla de tipo Sucursal 
         //entonces todos los objetos de la lista seran de tipo Sucursal
         List<Sucursal> listaSucursal = null;
